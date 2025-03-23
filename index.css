@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mada:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* General Styles */
+body {
+    background-color: rgb(41, 29, 15);
+    margin: 15px;
+    color: #333333;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+}
+
+.header {
+    border-radius: 50px;
+    width: 100%;
+    border: 1px solid #B1A592;
+    display: flex;
+    height: 63px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-collection {
+    background-color: #B1A592;
+    color: #333333;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    line-height: 29.05px;
+    font-weight: 400;
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    margin-left: 10px;
+}
+
+.same {
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    margin-left: 10px;
+    color: #B1A592;
+    background-color: #323025;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    line-height: 29.05px;
+    font-weight: 400;
+}
+
+.left {
+    margin-right: 10px;
+}
+
+.main-div {
+    display: flex;
+    margin: 30px;
+    gap: 20px;
+}
+
+.main-div-left {
+    width: 620px;
+    height: 981px;
+    background-color: #DFD6C5;
+    border-radius: 20px;
+}
+
+.main-div-left img {
+    width: 560px;
+    height: 730px;
+    margin-left: 20px;
+    border-radius: 20px;
+    border: none;
+    margin: 20px;
+    margin-top: 0;
+}
+
+.main-div-left button {
+    background-color: transparent;
+    border: 1px solid #323025;
+    color: #323025;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    border-radius: 20px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24.2px;
+    width: 207px;
+}
+
+.left-heading {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.05px;
+    margin-left: 20px;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+.left-last {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333333;
+    font-size: 24px;
+    line-height: 26.05px;
+    font-weight: 400;
+    margin: 20px;
+}
+
+.line {
+    font-size: 20px;
+}
+
+.right-up {
+    border-radius: 20px;
+    border: none;
+    background-color: #8E886D;
+    width: 750px;
+    height: 356px;
+}
+
+.LOREUMIPSUM {
+    background-color: transparent;
+    border: 1px solid #323025;
+    color: #323025;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    border-radius: 20px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24.2px;
+    width: 207px;
+}
+
+.Text {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.text1 {
+    margin-left: 20px;
+    margin-top: 1px;
+    margin-bottom: 0;
+}
+
+.text2 {
+    margin-bottom: 100px;
+}
+
+.div-right-up {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-right {
+    height: 240px;
+    margin-top: 30px;
+    width: 440px;
+    margin-right: 20px;
+}
+
+.div-up {
+    width: 820px;
+    border-radius: 20px;
+    background-color: #8E886D;
+    height: 350px;
+}
+
+.line {
+    margin-top: 10px;
+}
+
+.last-div {
+    display: flex;
+    margin-top: 20px;
+}
+
+.last-left {
+    background-color: #916E58;
+    height: 610px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.lasatimg {
+    margin-top: 25px;
+    margin-left: 10px;
+    width: 380px;
+    height: 195px;
+}
+
+.Portrait {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.53px;
+    text-decoration: underline;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.last-right {
+    background-color: #B1A48E;
+    border-radius: 20px;
+    height: 610px;
+    width: 400px;
+    margin-left: 20px;
+}
+
+.rightip-1-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.last-img {
+    margin-top: 50px;
+    margin-right: 20px;
+    float: right;
+}
+
+.class {
+    margin-top: 50px;
+}
+
+.LOREUMIPSUM1 {
+    margin-top: 50px;
+}
+
+.line2 {
+    margin-top: 15px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 767px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .right .right-collection {
+        width: 230%;
+        margin-right: 0;
+        font-size: 16px;
+    }
+
+    .same {
+        display: none;
+    }
+
+    .header {
+        width: 100%;
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    .left .same1 {
+        display: block;
+        margin-left: 0;
+        font-size: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100%;
+    }
+
+    .main-div {
+        margin: 0;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-div .main-div-left {
+        font-size: 16px;
+        width: 100%;
+        height: auto;
+        background-color: #DFD6C5;
+        border-radius: 15px;
+    }
+
+    .main-div .main-div-left img {
+        width: 90%;
+        height: auto;
+    }
+
+    .main-div .main-div-left button {
+        margin-bottom: 20px;
+    }
+
+    .main-div .main-div-right .LOREUMIPSUM {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .main-div .main-div-right .left-heading {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .main-div .main-div-right .div-up {
+        font-size: 14px;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .main-div .main-div-right .text {
+        width: 100%;
+    }
+
+    .main-div .main-div-right .div-up img {
+        width: 95%;
+        margin-left: 0px;
+    }
+
+    .main-div .main-div-right .line {
+        margin-top: 0;
+    }
+
+    .main-div .main-div-right .text3 {
+        margin-bottom: 10px;
+    }
+
+    .main-div .main-div-right .left-last {
+        padding-bottom: 20px;
+    }
+
+    .main-div .last-div {
+        display: block;
+    }
+
+    .main-div .last-right {
+        height: fit-content;
+        width: 100%;
+    }
+
+    .main-div .same1 {
+        margin-bottom: 10px;
+    }
+
+    .main-div .last-left {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .main-div .last-left img {
+        width: 94%;
+    }
+
+    .main-div .last-right .LOREUMIPSUM {
+        width: fit-content;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .main-div .last-div {
+        width: 100%;
+    }
+
+    .main-div .last-div .last-right {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .right .right-collection {
+        width: 500px;
+        margin-right: 0;
+    }
+
+    .same {
+        display: none;
+    }
+
+    .header {
+        width: 100%;
+        margin-left: 5px;
+    }
+
+    .header .same1 {
+        display: block;
+        margin-left: 0;
+        width: 180px;
+    }
+
+    .main-div {
+        margin: 0;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-div .main-div-left {
+        width: 105%;
+        height: 981px;
+        background-color: #DFD6C5;
+        border-radius: 30px;
+    }
+
+    .main-div .main-div-left img {
+        width: 95%;
+        height: 400px;
+    }
+
+    .main-div .main-div-left button {
+        margin-bottom: 20px;
+    }
+
+    .main-div .main-div-right .div-up {
+        width: 105%;
+        height: 400px;
+    }
+
+    .main-div .main-div-right .div-up img {
+        height: 280px;
+        width: 350px;
+    }
+
+    .main-div .last-right {
+        width: 360px;
+        font-size: 16px;
+    }
+
+    .main-div .last-left {
+        font-size: 16px;
+        width: 330px;
+    }
+
+    .main-div .last-left img {
+        width: 93%;
+    }
+
+    .main-div .last-left p {
+        margin-top: 10px;
+    }
+
+    .main-div .last-div {
+        width: 780px;
+    }
+}
