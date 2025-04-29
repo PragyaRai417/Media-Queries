@@ -1,6 +1,7 @@
 🎨 Art Gallery Website <br/>
-A beautifully designed Art Gallery Website built using HTML, CSS, and JavaScript. <br/>
-This project showcases an elegant layout, featuring different art categories, modern aesthetics, and an engaging user experience. <br/><br/>
+
+🚀 Live Demo: https://artfusion-gallery.netlify.app/<br/>
+A beautifully designed Art Gallery Website built using HTML, CSS, and JavaScript.This project showcases an elegant layout, featuring different art categories, modern aesthetics, and an engaging user experience. <br/><br/>
 
 🚀 Features <br/>
 ✅ Elegant UI – A visually appealing interface with a clean and artistic design. <br/>
